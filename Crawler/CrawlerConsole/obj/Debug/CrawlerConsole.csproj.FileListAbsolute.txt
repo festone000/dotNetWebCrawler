@@ -1,0 +1,1 @@
+E:\My\dotNetWebCrawler\Crawler\CrawlerConsole\bin\Debug\CrawlerConsole.exe.config
