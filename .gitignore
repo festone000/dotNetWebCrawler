@@ -29,3 +29,5 @@
 *.app
 /Crawler/CrawlerConsole/obj
 /Crawler/CrawlerService/obj
+/Crawler/CrawlerService/bin
+/Crawler/CrawlerConsole/bin
