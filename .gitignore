@@ -31,3 +31,7 @@
 /Crawler/CrawlerService/obj
 /Crawler/CrawlerService/bin
 /Crawler/CrawlerConsole/bin
+/Crawler/packages
+/Crawler/TypeScriptHTMLApp/bin
+/Crawler/TypeScriptHTMLApp/obj
+Debug
