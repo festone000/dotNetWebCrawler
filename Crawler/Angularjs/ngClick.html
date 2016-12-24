@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn" data-ng-app="testApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.css">
+    <script src="bootstrap-3.3.5-dist/js/jquery-1.11.3.js"></script>
+    <script src="bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+    <script src="angular.js"></script>
+    <title>Index</title>
+</head>
+
+<body class="container">
+<header class="page-header">
+    <h1>Index</h1>
+</header>
+<section>
+    <div ng-controller="booksCtrl">
+        <ul class="list-group">
+            <li class="list-group-item" ng-repeat="b in books" hiddenAttr="{{b.Id}}">
+                <span class="glyphicon glyphicon-bookmark"></span>
+                <span>{{b.title}}</span>
+                <span style="cursor: pointer" ng-click="hiddenFn(b.Id)" class="pull-right glyphicon glyphicon-remove"></span>
+            </li>
+        </ul>
+    </div>
+</section>
+<script>
+    function booksController($scope, $http) {
+        $scope.hiddenFn = function(id) {
+            $("ul>li[hiddenAttr='" + id + "']").hide();
+        };
+        var app = angular.module("testApp", []);
+        app.controller("booksCtrl", booksController);
+    }
+</script>
+<footer class="navbar-fixed-bottom text-center">&copy;2016</footer>
+</body>
+</html>
