@@ -35,3 +35,4 @@
 /Crawler/TypeScriptHTMLApp/bin
 /Crawler/TypeScriptHTMLApp/obj
 Debug
+/Crawler/*.user
