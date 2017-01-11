@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrawlerService", "CrawlerService\CrawlerService.csproj", "{A1291B60-9FCC-493C-ABC5-87DD11E8BEA8}"
 EndProject
@@ -34,26 +34,24 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Angularjs", "http://localho
 		SlnRelativePath = "Angularjs\"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CrawlerWebsite", "http://localhost:27873", "{AF744FF0-B6A3-4D56-9D27-A8326AD06F22}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CrawlerWebsite", "CrawlerWebsite\", "{56EADE0B-A75A-40B2-8EA7-99932FCA8B04}"
 	ProjectSection(WebsiteProperties) = preProject
-		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_27873"
-		Debug.AspNetCompiler.PhysicalPath = "..\CrawlerWebsite\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_27873\"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2518"
+		Debug.AspNetCompiler.PhysicalPath = "CrawlerWebsite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2518\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_27873"
-		Release.AspNetCompiler.PhysicalPath = "..\CrawlerWebsite\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_27873\"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2518"
+		Release.AspNetCompiler.PhysicalPath = "CrawlerWebsite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2518\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "..\CrawlerWebsite\"
-		DefaultWebSiteLanguage = "Visual Basic"
+		VWDPort = "2518"
 	EndProjectSection
 EndProject
 Global
@@ -84,10 +82,10 @@ Global
 		{92D25D3F-D5D8-41B6-857D-962E4708BD99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92D25D3F-D5D8-41B6-857D-962E4708BD99}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{92D25D3F-D5D8-41B6-857D-962E4708BD99}.Release|Any CPU.Build.0 = Debug|Any CPU
-		{AF744FF0-B6A3-4D56-9D27-A8326AD06F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF744FF0-B6A3-4D56-9D27-A8326AD06F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF744FF0-B6A3-4D56-9D27-A8326AD06F22}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF744FF0-B6A3-4D56-9D27-A8326AD06F22}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{56EADE0B-A75A-40B2-8EA7-99932FCA8B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56EADE0B-A75A-40B2-8EA7-99932FCA8B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56EADE0B-A75A-40B2-8EA7-99932FCA8B04}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{56EADE0B-A75A-40B2-8EA7-99932FCA8B04}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
