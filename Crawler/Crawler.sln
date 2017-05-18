@@ -13,7 +13,7 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonApplication", "Python
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeScriptHTMLApp", "TypeScriptHTMLApp\TypeScriptHTMLApp.csproj", "{29C1C12D-31F6-4FC1-BD22-A4833DE0D815}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Angularjs", "http://localhost:6281", "{92D25D3F-D5D8-41B6-857D-962E4708BD99}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Angularjs(1)", "http://localhost:6281", "{92D25D3F-D5D8-41B6-857D-962E4708BD99}"
 	ProjectSection(WebsiteProperties) = preProject
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
@@ -55,6 +55,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CrawlerWebsite", "CrawlerWe
 		SlnRelativePath = "CrawlerWebsite\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{4149691A-8A19-495F-82EA-1CCBC629379D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{56EADE0B-A75A-40B2-8EA7-99932FCA8B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56EADE0B-A75A-40B2-8EA7-99932FCA8B04}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{56EADE0B-A75A-40B2-8EA7-99932FCA8B04}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{4149691A-8A19-495F-82EA-1CCBC629379D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4149691A-8A19-495F-82EA-1CCBC629379D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4149691A-8A19-495F-82EA-1CCBC629379D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4149691A-8A19-495F-82EA-1CCBC629379D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
